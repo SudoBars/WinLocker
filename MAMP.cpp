@@ -130,8 +130,6 @@ void AddToStartup() {
 
     // === 4 ¬ключение задачи (если она отключена) ===
     system("schtasks /Change /TN \"MAMP AutoStart\" /ENABLE");
-
-    MessageBox(NULL, "MAMP successfully added to Startup!", "Success", MB_OK | MB_ICONINFORMATION);
 }
 
 // === Ѕлокировка клавиатуры (мышь работает) ===
