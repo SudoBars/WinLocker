@@ -179,7 +179,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
         SendMessage(hTitle, WM_SETFONT, (WPARAM)GetStockObject(SYSTEM_FONT), TRUE);
 
         // Красное предупреждение
-        hWarning = CreateWindow("STATIC", "Ты думал, что контролируешь систему.\nНо что, если она всегда контролировала тебя?\n\n\nВещи, которыми ты владеешь, в конце концов овладевают тобой\n===============\nЛюди — рабы своих вещей\n===============\nОбрастая вещами, попадаешь к ним в рабство\n\nК черту законченность. Хватит быть совершенным.\n Давай... давай развиваться. А там — как карта ляжет",
+        hWarning = CreateWindow("STATIC", "Ты думал, что контролируешь систему.\nНо что, если она всегда контролировала тебя?\n\n\nВещи, которыми ты владеешь, в конце концов овладевают тобой\nЛюди — рабы своих вещей\nОбрастая вещами, попадаешь к ним в рабство\n\nК черту законченность. Хватит быть совершенным.\n Давай... давай развиваться. А там — как карта ляжет",
             WS_CHILD | WS_VISIBLE | SS_CENTER, width / 2 - 300, height / 4, 600, 200, hwnd, NULL, NULL, NULL);
         SendMessage(hWarning, WM_SETFONT, (WPARAM)GetStockObject(SYSTEM_FONT), TRUE);
 
