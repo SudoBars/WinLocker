@@ -1,5 +1,6 @@
-// === Иконка ===
+#include <windows.h>
 IDI_ICON1 ICON "icon1.ico"
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "app.manifest"
 
 // === File Version Info ===
 VS_VERSION_INFO VERSIONINFO
@@ -15,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904b0" // Language: 04 = English, 09 = US
         BEGIN
-            VALUE "CompanyName", "MAMP Inc."
+            VALUE "CompanyName", "Holger Meyer"
             VALUE "FileDescription", "MAMP - The Ultimate System Server"
-            VALUE "FileVersion", "1.1.4.1"
+            VALUE "FileVersion", "7.4.0"
             VALUE "InternalName", "MAMP"
-            VALUE "LegalCopyright", "© 2025 MAMP Inc. All rights reserved."
+            VALUE "LegalCopyright", "© 2026 Holger Meyer. All rights reserved."
             VALUE "OriginalFilename", "MAMP.exe"
             VALUE "ProductName", "MAMP"
-            VALUE "ProductVersion", "1.1.4.1"
+            VALUE "ProductVersion", "7.4.0"
         END
     END
     BLOCK "VarFileInfo"
